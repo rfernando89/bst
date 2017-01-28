@@ -26,6 +26,7 @@ BinarySearchTree::node* BinarySearchTree::createNewNode(int data)
     return newNode;
 }
 
+// Check whether or not the Binary Search Tree is Empty
 bool BinarySearchTree::isEmpty()
 {
     if(rootPTR == NULL)
