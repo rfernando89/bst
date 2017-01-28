@@ -17,8 +17,7 @@ BinarySearchTree::BinarySearchTree()
 BinarySearchTree::node* BinarySearchTree::createNewNode(int data)
 {
     // Create the new node to be inserted
-    node * newNode;
-    newNode = new node;
+    node * newNode = new node;
     newNode->key = data;
     newNode->left = NULL;
     newNode->right = NULL;
